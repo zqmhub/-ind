@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div,p{
+    box-sizing: border-box;
+
+}
+
+li {
+    list-style: none;
+}
+
+.ellipsis1 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.yellow_linear_gradient {
+    background: -webkit-linear-gradient(to right,#ff7306, #ffb324);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(to right,#ff7306, #ffb324);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(to right,#ff7306, #ffb324);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#ff7306, #ffb324);
+    /* 标准的语法 */
+}
+.textalign_l{
+    text-align: left
+}
